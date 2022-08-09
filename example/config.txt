@@ -1,0 +1,2 @@
+Prefix plugins/ResNet50/example/
+Plugin ResNet50 inputfile parameters.txt outputfile plot.png
