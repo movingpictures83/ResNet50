@@ -1,2 +1,36 @@
 # ResNet50
-ResNet50 convolutional neural network (He et al, 2015)
+# Language: Python
+# Input: TXT
+# Output: PNG
+# Tested with: PluMA 1.1, Python 3.6
+
+PluMA plugin that runs a ResNet50 convolutional neural network (He et al, 2015)
+
+The plugin expectes as input a tab-delimited file of keyword-value pairs:
+OMP_NUM_THREADS
+KMP_BLOCKTIME
+KMP_SETTINGS
+KMP_AFFINITY
+NUM_CLASSES
+CHANNELS
+IMAGE_RESIZE
+RESNET50_POOLING_AVERAGE
+DENSE_LAYER_ACTIVATION
+OBJECTIVE_FUNCTION
+LOSS_METRICS
+NUM_EPOCHS
+EARLY_STOP_PATIENCE
+STEPS_PER_EPOCH_TRAINING
+STEPS_PER_EPOCH_VALIDATION
+BATCH_SIZE_TRAINING
+BATCH_SIZE_VALIDATION
+BATCH_SIZE_TESTING
+inputfile
+lr
+decay
+momentum
+TRAIN_FOLDER
+VALIDATE_FOLDER
+BEST
+
+The output is sent to a PNG file
